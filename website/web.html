@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Heritage in Nepal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.8rem 1.5rem;
+            display: block;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        main {
+            padding: 2rem;
+        }
+        section {
+            margin-bottom: 2rem;
+        }
+        h1, h2 {
+            color: #4CAF50;
+        }
+        .heritage-site {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+        }
+        .site-card {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            max-width: 300px;
+        }
+        .site-card img {
+            width: 100%;
+            height: auto;
+        }
+        .site-card .content {
+            padding: 1rem;
+        }
+        .site-card h3 {
+            margin: 0 0 0.5rem;
+        }
+        .site-card p {
+            margin: 0;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #333;
+            color: white;
+        }
+        .moving-line {
+      width: 1000px; 
+      height: 4px; 
+      position: absolute;
+      top: 50px; 
+      animation: move-right 10s linear infinite; 
+    }
+    @keyframes move-right {
+      0% {
+        left: 0; 
+      }
+      100% {
+        left: 100%; 
+      }
+    }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>World Heritage Sites in Nepal</h1>
+      <div class="moving-line" ><p>Explore the cultural and natural wonders of Nepal recognized by UNESCO.</p></div>
+    </header>
+    <nav>
+        <a href="#cultural-sites">Cultural Sites</a>
+        <a href="#natural-sites">Natural Sites</a>
+        <a href="#about">About</a>
+    </nav>
+    <main>
+        <section id="cultural-sites">
+            <h2>Cultural World Heritage Sites</h2>
+            <div class="heritage-site">
+                <div class="site-card">
+                    <img src="swa.jpg" alt="Swayambhunath">
+                    <div class="content">
+                        <a href="S.html"  target="_blank">Swayambhunath (Monkey Temple)</a>
+                        <p>An ancient religious site in the Kathmandu Valley, known for its iconic stupa and panoramic views.</p>
+                    </div>
+                </div>
+                <div class="site-card">
+                    <img src="patan.jpg" alt="Patan Durbar Square">
+                    <div class="content">
+                        <h3>Patan Durbar Square</h3>
+                        <p>A historical palace complex showcasing exquisite Newari architecture and craftsmanship.</p>
+                    </div>
+                </div>
+                <div class="site-card">
+                    <img src="bkt.jpg" alt="Bhaktapur Durbar Square">
+                    <div class="content">
+                        <h3>Bhaktapur Durbar Square</h3>
+                        <p>A UNESCO World Heritage Site known for its medieval art, culture, and architecture.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="natural-sites">
+            <h2>Natural World Heritage Sites</h2>
+            <div class="heritage-site">
+                <div class="site-card">
+                    <img src="download.jpeg" alt="Sagarmatha National Park">
+                    <div class="content">
+                        <h3>Sagarmatha National Park</h3>
+                        <p>Home to Mount Everest and diverse flora and fauna, it is a haven for trekkers and nature lovers.</p>
+                    </div>
+                </div>
+                <div class="site-card">
+                    <img src="images.jpeg" alt="Chitwan National Park">
+                    <div class="content">
+                        <h3>Chitwan National Park</h3>
+                        <p>A wildlife sanctuary famous for its Bengal tigers, rhinos, and diverse ecosystems.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <h2>About Nepal's World Heritage</h2>
+            <p>Nepal is a land of rich cultural heritage and natural beauty. From ancient temples to majestic mountains, the UNESCO World Heritage Sites in Nepal offer a glimpse into the country's profound history and breathtaking landscapes.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 World Heritage Nepal. All rights reserved.</p>
+    </footer>
+</body>
+</html>
